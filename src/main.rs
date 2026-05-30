@@ -22,8 +22,6 @@ async fn main() -> anyhow::Result<()> {
         .route("/", get(routes::index))
         .route("/blog", get(routes::blog::list))
         .route("/blog/{year}/{month}/{slug}", get(routes::blog::post))
-        .route("/notes", get(routes::notes::list))
-        .route("/notes/{slug}", get(routes::notes::post))
         .route("/bookshelf", get(routes::bookshelf))
         .route("/workouts", get(routes::workouts::page))
         .route("/recipes", get(routes::recipes::list))

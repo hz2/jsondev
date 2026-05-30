@@ -1,5 +1,4 @@
 pub mod blog;
-pub mod notes;
 pub mod recipes;
 pub mod workouts;
 
