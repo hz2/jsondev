@@ -1,0 +1,24 @@
+{
+  "total_runs": 121,
+  "total_miles": 343.6,
+  "total_time_hours": 51.0,
+  "total_elevation_feet": 3968.0,
+  "avg_distance": 2.84,
+  "avg_pace": "8:49",
+  "fastest_pace": "6:59",
+  "longest_run_miles": 5.65,
+  "runs_this_month": 6,
+  "miles_this_month": 18.6,
+  "fastest_run": {
+    "name": "[morning] SLU, murph mile start",
+    "date": "2025-05-25",
+    "distance": 1.02,
+    "pace": "6:59"
+  },
+  "longest_run": {
+    "name": "[morning]",
+    "date": "2025-08-30",
+    "distance": 5.65,
+    "pace": "8:39"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "avg_days_between": 2462.6,
+  "workouts_per_week": 0.0,
+  "total_workouts": 300,
+  "muscle_group_frequency": {
+    "Chest/Back": 1,
+    "Legs": 45,
+    "Push": 87,
+    "Pull": 77,
+    "Full-Body": 50,
+    "Arms/Shoulders": 6,
+    "Lower": 16,
+    "Upper": 17,
+    "pump day": 1
+  }
+}

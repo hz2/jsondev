@@ -1,0 +1,42 @@
+[
+  {
+    "exercise": "squat",
+    "weight": 245.0,
+    "reps": 8,
+    "rpe": 8.0,
+    "date": "2025-01-23",
+    "estimated_1rm": 304.1
+  },
+  {
+    "exercise": "bench press",
+    "weight": 185.0,
+    "reps": 10,
+    "rpe": 9.0,
+    "date": "2024-05-06",
+    "estimated_1rm": 246.7
+  },
+  {
+    "exercise": "deadlift",
+    "weight": 135.0,
+    "reps": 8,
+    "rpe": 7.0,
+    "date": "2025-04-21",
+    "estimated_1rm": 167.6
+  },
+  {
+    "exercise": "db bench press",
+    "weight": 80.0,
+    "reps": 10,
+    "rpe": 10.0,
+    "date": "2024-02-09",
+    "estimated_1rm": 106.7
+  },
+  {
+    "exercise": "hack squat",
+    "weight": 70.0,
+    "reps": 8,
+    "rpe": 9.0,
+    "date": "2024-01-28",
+    "estimated_1rm": 86.9
+  }
+]

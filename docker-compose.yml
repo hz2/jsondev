@@ -11,10 +11,10 @@ services:
       - DATA_DIR=/app/data
     volumes:
       # mount content and templates live so changes don't need a rebuild
-      - ../site/content:/app/content:ro
-      - ../site/data:/app/data:ro
+      - ./content:/app/content:ro
+      - ./data:/app/data:ro
       - ./templates:/app/templates:ro
-      - ../site/static:/app/static:ro
+      - ./static:/app/static:ro
     depends_on:
       - mealie
 

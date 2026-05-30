@@ -1,0 +1,29 @@
+[
+  {
+    "lift": "Deadlift",
+    "exercise": "deadlift",
+    "weight": 335.0,
+    "reps": 3,
+    "estimated_1rm": 354.7,
+    "bw_ratio": 1.99,
+    "date": "2025-03-11"
+  },
+  {
+    "lift": "Squat",
+    "exercise": "bb squat",
+    "weight": 315.0,
+    "reps": 4,
+    "estimated_1rm": 343.6,
+    "bw_ratio": 1.93,
+    "date": "2024-10-10"
+  },
+  {
+    "lift": "Bench Press",
+    "exercise": "flat bb bench",
+    "weight": 185.0,
+    "reps": 10,
+    "estimated_1rm": 246.7,
+    "bw_ratio": 1.38,
+    "date": "2024-05-06"
+  }
+]

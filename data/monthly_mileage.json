@@ -1,0 +1,92 @@
+[
+  {
+    "month": "2025-02",
+    "miles": 9.9,
+    "runs": 4,
+    "hours": 1.7
+  },
+  {
+    "month": "2025-03",
+    "miles": 17.2,
+    "runs": 5,
+    "hours": 2.9
+  },
+  {
+    "month": "2025-04",
+    "miles": 24.1,
+    "runs": 9,
+    "hours": 3.9
+  },
+  {
+    "month": "2025-05",
+    "miles": 29.0,
+    "runs": 12,
+    "hours": 4.3
+  },
+  {
+    "month": "2025-06",
+    "miles": 15.9,
+    "runs": 6,
+    "hours": 2.2
+  },
+  {
+    "month": "2025-07",
+    "miles": 24.8,
+    "runs": 9,
+    "hours": 3.4
+  },
+  {
+    "month": "2025-08",
+    "miles": 24.5,
+    "runs": 7,
+    "hours": 3.5
+  },
+  {
+    "month": "2025-09",
+    "miles": 35.4,
+    "runs": 12,
+    "hours": 4.9
+  },
+  {
+    "month": "2025-10",
+    "miles": 32.7,
+    "runs": 10,
+    "hours": 4.7
+  },
+  {
+    "month": "2025-11",
+    "miles": 11.3,
+    "runs": 4,
+    "hours": 1.7
+  },
+  {
+    "month": "2025-12",
+    "miles": 27.5,
+    "runs": 8,
+    "hours": 4.6
+  },
+  {
+    "month": "2026-01",
+    "miles": 21.3,
+    "runs": 12,
+    "hours": 3.1
+  },
+  {
+    "month": "2026-02",
+    "miles": 23.7,
+    "runs": 8,
+    "hours": 3.4
+  },
+  {
+    "month": "2026-03",
+    "miles": 27.9,
+    "runs": 9,
+    "hours": 3.9
+  },
+  {
+    "month": "2026-04",
+    "miles": 18.6,
+    "runs": 6,
+    "hours": 2.7
+  }
+]

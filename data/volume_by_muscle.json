@@ -1,0 +1,38 @@
+[
+  {
+    "muscle_group": "Push",
+    "volume": 127359.0
+  },
+  {
+    "muscle_group": "Legs",
+    "volume": 122795.0
+  },
+  {
+    "muscle_group": "Full-Body",
+    "volume": 114608.0
+  },
+  {
+    "muscle_group": "Pull",
+    "volume": 95144.0
+  },
+  {
+    "muscle_group": "Lower",
+    "volume": 44150.0
+  },
+  {
+    "muscle_group": "Upper",
+    "volume": 28385.0
+  },
+  {
+    "muscle_group": "Arms/Shoulders",
+    "volume": 9144.0
+  },
+  {
+    "muscle_group": "pump day",
+    "volume": 1425.0
+  },
+  {
+    "muscle_group": "Chest/Back",
+    "volume": 1300.0
+  }
+]

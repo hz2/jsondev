@@ -1,0 +1,614 @@
+[
+  {
+    "week": "10-W01",
+    "volume": 2225.0,
+    "workouts": 1,
+    "date": "0010-01-09"
+  },
+  {
+    "week": "24-W23",
+    "volume": 3975.0,
+    "workouts": 1,
+    "date": "0024-06-06"
+  },
+  {
+    "week": "25-W24",
+    "volume": 1970.0,
+    "workouts": 1,
+    "date": "0025-06-10"
+  },
+  {
+    "week": "25-W33",
+    "volume": 2490.0,
+    "workouts": 2,
+    "date": "0025-08-16"
+  },
+  {
+    "week": "25-W34",
+    "volume": 1385.0,
+    "workouts": 2,
+    "date": "0025-08-18"
+  },
+  {
+    "week": "25-W35",
+    "volume": 1605.0,
+    "workouts": 2,
+    "date": "0025-08-26"
+  },
+  {
+    "week": "2023-W22",
+    "volume": 1950.0,
+    "workouts": 1,
+    "date": "2023-05-31"
+  },
+  {
+    "week": "2024-W01",
+    "volume": 4510.0,
+    "workouts": 2,
+    "date": "2024-01-01"
+  },
+  {
+    "week": "2024-W02",
+    "volume": 4280.0,
+    "workouts": 2,
+    "date": "2024-01-13"
+  },
+  {
+    "week": "2024-W03",
+    "volume": 5295.0,
+    "workouts": 4,
+    "date": "2024-01-15"
+  },
+  {
+    "week": "2024-W04",
+    "volume": 4110.0,
+    "workouts": 4,
+    "date": "2024-01-22"
+  },
+  {
+    "week": "2024-W05",
+    "volume": 2565.0,
+    "workouts": 4,
+    "date": "2024-01-29"
+  },
+  {
+    "week": "2024-W06",
+    "volume": 5570.0,
+    "workouts": 5,
+    "date": "2024-02-05"
+  },
+  {
+    "week": "2024-W07",
+    "volume": 6785.0,
+    "workouts": 5,
+    "date": "2024-02-13"
+  },
+  {
+    "week": "2024-W08",
+    "volume": 4110.0,
+    "workouts": 5,
+    "date": "2024-02-19"
+  },
+  {
+    "week": "2024-W09",
+    "volume": 3080.0,
+    "workouts": 3,
+    "date": "2024-02-26"
+  },
+  {
+    "week": "2024-W10",
+    "volume": 5190.0,
+    "workouts": 4,
+    "date": "2024-03-04"
+  },
+  {
+    "week": "2024-W11",
+    "volume": 9760.0,
+    "workouts": 4,
+    "date": "2024-03-11"
+  },
+  {
+    "week": "2024-W12",
+    "volume": 12508.0,
+    "workouts": 6,
+    "date": "2024-03-18"
+  },
+  {
+    "week": "2024-W13",
+    "volume": 5610.0,
+    "workouts": 4,
+    "date": "2024-03-25"
+  },
+  {
+    "week": "2024-W14",
+    "volume": 4708.0,
+    "workouts": 4,
+    "date": "2024-04-01"
+  },
+  {
+    "week": "2024-W15",
+    "volume": 4340.0,
+    "workouts": 3,
+    "date": "2024-04-09"
+  },
+  {
+    "week": "2024-W16",
+    "volume": 1080.0,
+    "workouts": 2,
+    "date": "2024-04-18"
+  },
+  {
+    "week": "2024-W17",
+    "volume": 2675.0,
+    "workouts": 2,
+    "date": "2024-04-22"
+  },
+  {
+    "week": "2024-W18",
+    "volume": 4580.0,
+    "workouts": 4,
+    "date": "2024-04-29"
+  },
+  {
+    "week": "2024-W19",
+    "volume": 4305.0,
+    "workouts": 4,
+    "date": "2024-05-06"
+  },
+  {
+    "week": "2024-W20",
+    "volume": 4145.0,
+    "workouts": 3,
+    "date": "2024-05-13"
+  },
+  {
+    "week": "2024-W21",
+    "volume": 3020.0,
+    "workouts": 3,
+    "date": "2024-05-22"
+  },
+  {
+    "week": "2024-W22",
+    "volume": 6285.0,
+    "workouts": 3,
+    "date": "2024-05-29"
+  },
+  {
+    "week": "2024-W23",
+    "volume": 7132.0,
+    "workouts": 3,
+    "date": "2024-06-03"
+  },
+  {
+    "week": "2024-W24",
+    "volume": 5500.0,
+    "workouts": 2,
+    "date": "2024-06-11"
+  },
+  {
+    "week": "2024-W25",
+    "volume": 10605.0,
+    "workouts": 4,
+    "date": "2024-06-20"
+  },
+  {
+    "week": "2024-W26",
+    "volume": 11760.0,
+    "workouts": 5,
+    "date": "2024-06-24"
+  },
+  {
+    "week": "2024-W27",
+    "volume": 14365.0,
+    "workouts": 5,
+    "date": "2024-07-01"
+  },
+  {
+    "week": "2024-W28",
+    "volume": 11690.0,
+    "workouts": 4,
+    "date": "2024-07-08"
+  },
+  {
+    "week": "2024-W29",
+    "volume": 17862.0,
+    "workouts": 6,
+    "date": "2024-07-15"
+  },
+  {
+    "week": "2024-W30",
+    "volume": 9835.0,
+    "workouts": 5,
+    "date": "2024-07-22"
+  },
+  {
+    "week": "2024-W31",
+    "volume": 10442.0,
+    "workouts": 5,
+    "date": "2024-07-29"
+  },
+  {
+    "week": "2024-W32",
+    "volume": 4800.0,
+    "workouts": 1,
+    "date": "2024-08-11"
+  },
+  {
+    "week": "2024-W33",
+    "volume": 15208.0,
+    "workouts": 6,
+    "date": "2024-08-12"
+  },
+  {
+    "week": "2024-W34",
+    "volume": 13570.0,
+    "workouts": 6,
+    "date": "2024-08-19"
+  },
+  {
+    "week": "2024-W35",
+    "volume": 2720.0,
+    "workouts": 3,
+    "date": "2024-08-26"
+  },
+  {
+    "week": "2024-W36",
+    "volume": 12310.0,
+    "workouts": 5,
+    "date": "2024-09-03"
+  },
+  {
+    "week": "2024-W37",
+    "volume": 3640.0,
+    "workouts": 5,
+    "date": "2024-09-09"
+  },
+  {
+    "week": "2024-W39",
+    "volume": 3850.0,
+    "workouts": 2,
+    "date": "2024-09-28"
+  },
+  {
+    "week": "2024-W40",
+    "volume": 6720.0,
+    "workouts": 6,
+    "date": "2024-09-30"
+  },
+  {
+    "week": "2024-W41",
+    "volume": 8030.0,
+    "workouts": 4,
+    "date": "2024-10-08"
+  },
+  {
+    "week": "2024-W42",
+    "volume": 11205.0,
+    "workouts": 3,
+    "date": "2024-10-15"
+  },
+  {
+    "week": "2024-W44",
+    "volume": 5835.0,
+    "workouts": 2,
+    "date": "2024-10-29"
+  },
+  {
+    "week": "2024-W46",
+    "volume": 5107.0,
+    "workouts": 3,
+    "date": "2024-11-12"
+  },
+  {
+    "week": "2024-W47",
+    "volume": 1935.0,
+    "workouts": 4,
+    "date": "2024-11-18"
+  },
+  {
+    "week": "2024-W48",
+    "volume": 60.0,
+    "workouts": 1,
+    "date": "2024-11-30"
+  },
+  {
+    "week": "2024-W49",
+    "volume": 6785.0,
+    "workouts": 3,
+    "date": "2024-12-03"
+  },
+  {
+    "week": "2024-W50",
+    "volume": 7239.0,
+    "workouts": 5,
+    "date": "2024-12-09"
+  },
+  {
+    "week": "2024-W51",
+    "volume": 5440.0,
+    "workouts": 2,
+    "date": "2024-12-19"
+  },
+  {
+    "week": "2024-W52",
+    "volume": 5155.0,
+    "workouts": 4,
+    "date": "2024-12-23"
+  },
+  {
+    "week": "2025-W01",
+    "volume": 3915.0,
+    "workouts": 2,
+    "date": "2024-12-30"
+  },
+  {
+    "week": "2025-W02",
+    "volume": 5765.0,
+    "workouts": 2,
+    "date": "2025-01-11"
+  },
+  {
+    "week": "2025-W03",
+    "volume": 13580.0,
+    "workouts": 4,
+    "date": "2025-01-13"
+  },
+  {
+    "week": "2025-W04",
+    "volume": 15735.0,
+    "workouts": 5,
+    "date": "2025-01-20"
+  },
+  {
+    "week": "2025-W05",
+    "volume": 5790.0,
+    "workouts": 3,
+    "date": "2025-01-27"
+  },
+  {
+    "week": "2025-W06",
+    "volume": 12985.0,
+    "workouts": 5,
+    "date": "2025-02-03"
+  },
+  {
+    "week": "2025-W07",
+    "volume": 3550.0,
+    "workouts": 2,
+    "date": "2025-02-10"
+  },
+  {
+    "week": "2025-W08",
+    "volume": 8565.0,
+    "workouts": 4,
+    "date": "2025-02-18"
+  },
+  {
+    "week": "2025-W09",
+    "volume": 6680.0,
+    "workouts": 3,
+    "date": "2025-02-24"
+  },
+  {
+    "week": "2025-W10",
+    "volume": 4455.0,
+    "workouts": 2,
+    "date": "2025-03-03"
+  },
+  {
+    "week": "2025-W11",
+    "volume": 4485.0,
+    "workouts": 2,
+    "date": "2025-03-10"
+  },
+  {
+    "week": "2025-W12",
+    "volume": 1635.0,
+    "workouts": 2,
+    "date": "2025-03-17"
+  },
+  {
+    "week": "2025-W13",
+    "volume": 4900.0,
+    "workouts": 2,
+    "date": "2025-03-24"
+  },
+  {
+    "week": "2025-W14",
+    "volume": 4300.0,
+    "workouts": 2,
+    "date": "2025-03-31"
+  },
+  {
+    "week": "2025-W15",
+    "volume": 5880.0,
+    "workouts": 3,
+    "date": "2025-04-07"
+  },
+  {
+    "week": "2025-W16",
+    "volume": 2880.0,
+    "workouts": 2,
+    "date": "2025-04-14"
+  },
+  {
+    "week": "2025-W17",
+    "volume": 6735.0,
+    "workouts": 3,
+    "date": "2025-04-21"
+  },
+  {
+    "week": "2025-W18",
+    "volume": 3695.0,
+    "workouts": 2,
+    "date": "2025-04-29"
+  },
+  {
+    "week": "2025-W19",
+    "volume": 2280.0,
+    "workouts": 2,
+    "date": "2025-05-05"
+  },
+  {
+    "week": "2025-W20",
+    "volume": 6150.0,
+    "workouts": 2,
+    "date": "2025-05-13"
+  },
+  {
+    "week": "2025-W21",
+    "volume": 3705.0,
+    "workouts": 2,
+    "date": "2025-05-20"
+  },
+  {
+    "week": "2025-W22",
+    "volume": 1695.0,
+    "workouts": 1,
+    "date": "2025-05-31"
+  },
+  {
+    "week": "2025-W23",
+    "volume": 6850.0,
+    "workouts": 4,
+    "date": "2025-06-02"
+  },
+  {
+    "week": "2025-W24",
+    "volume": 2400.0,
+    "workouts": 1,
+    "date": "2025-06-09"
+  },
+  {
+    "week": "2025-W26",
+    "volume": 2840.0,
+    "workouts": 1,
+    "date": "2025-06-24"
+  },
+  {
+    "week": "2025-W27",
+    "volume": 5345.0,
+    "workouts": 2,
+    "date": "2025-07-01"
+  },
+  {
+    "week": "2025-W28",
+    "volume": 1160.0,
+    "workouts": 1,
+    "date": "2025-07-09"
+  },
+  {
+    "week": "2025-W29",
+    "volume": 5620.0,
+    "workouts": 2,
+    "date": "2025-07-18"
+  },
+  {
+    "week": "2025-W30",
+    "volume": 480.0,
+    "workouts": 1,
+    "date": "2025-07-24"
+  },
+  {
+    "week": "2025-W31",
+    "volume": 1340.0,
+    "workouts": 1,
+    "date": "2025-07-29"
+  },
+  {
+    "week": "2025-W32",
+    "volume": 980.0,
+    "workouts": 2,
+    "date": "2025-08-06"
+  },
+  {
+    "week": "2025-W33",
+    "volume": 960.0,
+    "workouts": 2,
+    "date": "2025-08-12"
+  },
+  {
+    "week": "2025-W35",
+    "volume": 3860.0,
+    "workouts": 1,
+    "date": "2025-08-29"
+  },
+  {
+    "week": "2025-W36",
+    "volume": 3680.0,
+    "workouts": 2,
+    "date": "2025-09-01"
+  },
+  {
+    "week": "2025-W37",
+    "volume": 1360.0,
+    "workouts": 3,
+    "date": "2025-09-08"
+  },
+  {
+    "week": "2025-W38",
+    "volume": 3220.0,
+    "workouts": 3,
+    "date": "2025-09-16"
+  },
+  {
+    "week": "2025-W39",
+    "volume": 2075.0,
+    "workouts": 2,
+    "date": "2025-09-24"
+  },
+  {
+    "week": "2025-W42",
+    "volume": 480.0,
+    "workouts": 1,
+    "date": "2025-10-13"
+  },
+  {
+    "week": "2025-W43",
+    "volume": 2170.0,
+    "workouts": 2,
+    "date": "2025-10-24"
+  },
+  {
+    "week": "2025-W44",
+    "volume": 1210.0,
+    "workouts": 1,
+    "date": "2025-10-27"
+  },
+  {
+    "week": "2025-W46",
+    "volume": 8474.0,
+    "workouts": 5,
+    "date": "2025-11-10"
+  },
+  {
+    "week": "2025-W47",
+    "volume": 4980.0,
+    "workouts": 2,
+    "date": "2025-11-18"
+  },
+  {
+    "week": "2025-W48",
+    "volume": 3590.0,
+    "workouts": 2,
+    "date": "2025-11-24"
+  },
+  {
+    "week": "2025-W49",
+    "volume": 2160.0,
+    "workouts": 2,
+    "date": "2025-12-05"
+  },
+  {
+    "week": "2025-W50",
+    "volume": 4505.0,
+    "workouts": 3,
+    "date": "2025-12-08"
+  },
+  {
+    "week": "2025-W51",
+    "volume": 2300.0,
+    "workouts": 3,
+    "date": "2025-12-15"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "fastest_pace": {
+    "name": "[morning] SLU, murph mile start",
+    "date": "2025-05-25",
+    "pace": "6:59",
+    "distance_miles": 1.02
+  },
+  "longest_run": {
+    "name": "[morning]",
+    "date": "2025-08-30",
+    "distance_miles": 5.65,
+    "pace": "8:39",
+    "time_minutes": 48.9
+  },
+  "most_elevation": {
+    "name": "Morning Run",
+    "date": "2025-02-09",
+    "elevation_feet": 333.7,
+    "distance_miles": 5.38
+  },
+  "fastest_5k_pace": {
+    "name": "[afternoon] slu",
+    "date": "2025-09-30",
+    "pace": "7:31",
+    "actual_distance": 2.99,
+    "estimated_5k_time": "23:20"
+  }
+}

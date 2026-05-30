@@ -1,0 +1,46 @@
+{
+  "total_workouts": 300,
+  "total_volume_lbs": 544310.0,
+  "workout_distribution": [
+    {
+      "group": "Chest/Back",
+      "count": 1
+    },
+    {
+      "group": "Legs",
+      "count": 45
+    },
+    {
+      "group": "Push",
+      "count": 87
+    },
+    {
+      "group": "Pull",
+      "count": 77
+    },
+    {
+      "group": "Full-Body",
+      "count": 50
+    },
+    {
+      "group": "Arms/Shoulders",
+      "count": 6
+    },
+    {
+      "group": "Lower",
+      "count": 16
+    },
+    {
+      "group": "Upper",
+      "count": 17
+    },
+    {
+      "group": "pump day",
+      "count": 1
+    }
+  ],
+  "date_range": {
+    "start": "0010-01-09",
+    "end": "2025-12-18"
+  }
+}

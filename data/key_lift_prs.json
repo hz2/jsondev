@@ -1,0 +1,62 @@
+[
+  {
+    "exercise": "deadlift",
+    "strength_pr": {
+      "weight": 335.0,
+      "reps": 3,
+      "rpe": 9.0,
+      "date": "2025-03-11",
+      "estimated_1rm": 354.7
+    },
+    "hypertrophy_pr": {
+      "weight": 135.0,
+      "reps": 8,
+      "rpe": 7.0,
+      "date": "2025-04-21",
+      "estimated_1rm": 167.6
+    },
+    "endurance_pr": null,
+    "recent": null,
+    "best_estimated_1rm": 354.7
+  },
+  {
+    "exercise": "squat",
+    "strength_pr": {
+      "weight": 315.0,
+      "reps": 4,
+      "rpe": 10.0,
+      "date": "2024-10-10",
+      "estimated_1rm": 343.6
+    },
+    "hypertrophy_pr": {
+      "weight": 275.0,
+      "reps": 6,
+      "rpe": 9.0,
+      "date": "2024-07-18",
+      "estimated_1rm": 319.4
+    },
+    "endurance_pr": null,
+    "recent": null,
+    "best_estimated_1rm": 343.6
+  },
+  {
+    "exercise": "bench press",
+    "strength_pr": {
+      "weight": 225.0,
+      "reps": 2,
+      "rpe": 10.0,
+      "date": "2024-07-18",
+      "estimated_1rm": 231.4
+    },
+    "hypertrophy_pr": {
+      "weight": 185.0,
+      "reps": 10,
+      "rpe": 9.0,
+      "date": "2024-05-06",
+      "estimated_1rm": 246.7
+    },
+    "endurance_pr": null,
+    "recent": null,
+    "best_estimated_1rm": 246.7
+  }
+]

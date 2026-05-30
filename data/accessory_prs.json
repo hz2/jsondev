@@ -1,0 +1,40 @@
+[
+  {
+    "lift": "db press",
+    "exercise": "flat db press",
+    "weight": 75.0,
+    "reps": 12,
+    "estimated_1rm": 108.0,
+    "date": "2024-07-01"
+  },
+  {
+    "lift": "pull-ups",
+    "exercise": "pull-ups",
+    "weight": 0.0,
+    "reps": 13,
+    "date": "2024-08-04"
+  },
+  {
+    "lift": "lat pulldown",
+    "exercise": "neutral grip lat pull-down",
+    "weight": 140.0,
+    "reps": 12,
+    "estimated_1rm": 201.6,
+    "date": "2024-07-19"
+  },
+  {
+    "lift": "helms row",
+    "exercise": "db helms row",
+    "weight": 55.0,
+    "reps": 10,
+    "estimated_1rm": 73.3,
+    "date": "2025-01-13"
+  },
+  {
+    "lift": "push-ups",
+    "exercise": "push-ups",
+    "weight": 0.0,
+    "reps": 25,
+    "date": "2025-01-14"
+  }
+]

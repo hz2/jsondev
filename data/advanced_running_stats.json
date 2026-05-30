@@ -1,0 +1,213 @@
+{
+  "total_runs": 121,
+  "streaks": {
+    "current_streak": 1,
+    "longest_streak": 2,
+    "last_run_date": "2026-04-22"
+  },
+  "pace_zones": [
+    {
+      "zone": "easy",
+      "pace_range": ">9:00",
+      "count": 37,
+      "miles": 107.5,
+      "percentage": 30.8
+    },
+    {
+      "zone": "steady",
+      "pace_range": "9:00 - 8:00",
+      "count": 71,
+      "miles": 209.1,
+      "percentage": 59.2
+    },
+    {
+      "zone": "tempo",
+      "pace_range": "8:00 - 7:00",
+      "count": 11,
+      "miles": 26.0,
+      "percentage": 9.2
+    },
+    {
+      "zone": "threshold",
+      "pace_range": "7:00 - 6:00",
+      "count": 1,
+      "miles": 1.0,
+      "percentage": 0.8
+    },
+    {
+      "zone": "speed",
+      "pace_range": "<6:00",
+      "count": 0,
+      "miles": 0,
+      "percentage": 0.0
+    }
+  ],
+  "heart_rate_stats": {
+    "available": false
+  },
+  "personal_records": {
+    "fastest_pace": {
+      "name": "[morning] SLU, murph mile start",
+      "date": "2025-05-25",
+      "pace": "6:59",
+      "distance_miles": 1.02
+    },
+    "longest_run": {
+      "name": "[morning]",
+      "date": "2025-08-30",
+      "distance_miles": 5.65,
+      "pace": "8:39",
+      "time_minutes": 48.9
+    },
+    "most_elevation": {
+      "name": "Morning Run",
+      "date": "2025-02-09",
+      "elevation_feet": 333.7,
+      "distance_miles": 5.38
+    },
+    "fastest_5k_pace": {
+      "name": "[afternoon] slu",
+      "date": "2025-09-30",
+      "pace": "7:31",
+      "actual_distance": 2.99,
+      "estimated_5k_time": "23:20"
+    }
+  },
+  "monthly_trends": [
+    {
+      "month": "2025-02",
+      "miles": 9.9,
+      "runs": 4,
+      "hours": 1.7,
+      "elevation_feet": 614.0,
+      "avg_pace": "10:22",
+      "change_pct": null
+    },
+    {
+      "month": "2025-03",
+      "miles": 17.2,
+      "runs": 5,
+      "hours": 2.9,
+      "elevation_feet": 1099.0,
+      "avg_pace": "10:05",
+      "change_pct": 75.1
+    },
+    {
+      "month": "2025-04",
+      "miles": 24.1,
+      "runs": 9,
+      "hours": 3.9,
+      "elevation_feet": 681.0,
+      "avg_pace": "9:49",
+      "change_pct": 39.7
+    },
+    {
+      "month": "2025-05",
+      "miles": 29.0,
+      "runs": 12,
+      "hours": 4.3,
+      "elevation_feet": 27.0,
+      "avg_pace": "8:56",
+      "change_pct": 20.2
+    },
+    {
+      "month": "2025-06",
+      "miles": 15.9,
+      "runs": 6,
+      "hours": 2.2,
+      "elevation_feet": 126.0,
+      "avg_pace": "8:24",
+      "change_pct": -45.2
+    },
+    {
+      "month": "2025-07",
+      "miles": 24.8,
+      "runs": 9,
+      "hours": 3.4,
+      "elevation_feet": 30.0,
+      "avg_pace": "8:17",
+      "change_pct": 55.9
+    },
+    {
+      "month": "2025-08",
+      "miles": 24.5,
+      "runs": 7,
+      "hours": 3.5,
+      "elevation_feet": 42.0,
+      "avg_pace": "8:32",
+      "change_pct": -1.2
+    },
+    {
+      "month": "2025-09",
+      "miles": 35.4,
+      "runs": 12,
+      "hours": 4.9,
+      "elevation_feet": 23.0,
+      "avg_pace": "8:16",
+      "change_pct": 44.8
+    },
+    {
+      "month": "2025-10",
+      "miles": 32.7,
+      "runs": 10,
+      "hours": 4.7,
+      "elevation_feet": 102.0,
+      "avg_pace": "8:38",
+      "change_pct": -7.7
+    },
+    {
+      "month": "2025-11",
+      "miles": 11.3,
+      "runs": 4,
+      "hours": 1.7,
+      "elevation_feet": 17.0,
+      "avg_pace": "9:02",
+      "change_pct": -65.5
+    },
+    {
+      "month": "2025-12",
+      "miles": 27.5,
+      "runs": 8,
+      "hours": 4.6,
+      "elevation_feet": 1206.0,
+      "avg_pace": "9:25",
+      "change_pct": 143.7
+    },
+    {
+      "month": "2026-01",
+      "miles": 21.3,
+      "runs": 12,
+      "hours": 3.1,
+      "elevation_feet": 0.0,
+      "avg_pace": "8:32",
+      "change_pct": -22.4
+    },
+    {
+      "month": "2026-02",
+      "miles": 23.7,
+      "runs": 8,
+      "hours": 3.4,
+      "elevation_feet": 0.0,
+      "avg_pace": "8:32",
+      "change_pct": 11.2
+    },
+    {
+      "month": "2026-03",
+      "miles": 27.9,
+      "runs": 9,
+      "hours": 3.9,
+      "elevation_feet": 0.0,
+      "avg_pace": "8:23",
+      "change_pct": 17.7
+    },
+    {
+      "month": "2026-04",
+      "miles": 18.6,
+      "runs": 6,
+      "hours": 2.7,
+      "elevation_feet": 0.0,
+      "avg_pace": "8:41",
+      "change_pct": -33.3
+    }
+  ]
+}
