@@ -1,11 +1,4 @@
-use axum::{routing::get, Router};
 use std::{env, sync::Arc};
-use tower_http::services::ServeDir;
-
-mod content;
-mod error;
-mod routes;
-mod state;
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
@@ -16,20 +9,8 @@ async fn main() -> anyhow::Result<()> {
         )
         .init();
 
-    let state = Arc::new(state::AppState::new()?);
-
-    let app = Router::new()
-        .route("/", get(routes::index))
-        .route("/blog", get(routes::blog::list))
-        .route("/blog/{year}/{month}/{slug}", get(routes::blog::post))
-        .route("/notes", get(routes::notes::list))
-        .route("/notes/{slug}", get(routes::notes::post))
-        .route("/bookshelf", get(routes::bookshelf))
-        .route("/workouts", get(routes::workouts::page))
-        .route("/recipes", get(routes::recipes::list))
-        .route("/recipes/{slug}", get(routes::recipes::detail))
-        .nest_service("/static", ServeDir::new("static"))
-        .with_state(state);
+    let state = Arc::new(jsondev::state::AppState::new()?);
+    let app = jsondev::build_router(state);
 
     let port = env::var("PORT").unwrap_or_else(|_| "3000".into());
     let addr = format!("0.0.0.0:{port}");

@@ -9,6 +9,7 @@ pub struct AppState {
     pub http: Client,
     pub content_dir: String,
     pub data_dir: String,
+    pub static_dir: String,
 }
 
 impl AppState {
@@ -24,6 +25,7 @@ impl AppState {
             http: Client::new(),
             content_dir: env::var("CONTENT_DIR").unwrap_or_else(|_| "content".into()),
             data_dir: env::var("DATA_DIR").unwrap_or_else(|_| "data".into()),
+            static_dir: env::var("STATIC_DIR").unwrap_or_else(|_| "static".into()),
         })
     }
 }
