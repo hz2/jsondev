@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}blog &middot; jsondev{% endblock %}
+
+{% block main %}
+<h1>blog</h1>
+<ul class="post-list">
+  {% for post in posts %}
+  <li class="post-item">
+    <a href="{{ post.href }}">{{ post.title }}</a>
+    {% if post.date %}<time>{{ post.date }}</time>{% endif %}
+    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </li>
+  {% else %}
+  <li>no posts yet.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

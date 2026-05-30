@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block title %}workouts &middot; jsondev{% endblock %}
+
+{% block main %}
+<h1>workouts</h1>
+
+<section class="workout-section">
+  <h2>running</h2>
+  <div class="stat-grid">
+    <div class="stat">
+      <span class="stat-value">{{ running_stats.total_miles }}</span>
+      <span class="stat-label">total miles</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{{ running_stats.total_runs }}</span>
+      <span class="stat-label">total runs</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{{ running_stats.avg_pace }}</span>
+      <span class="stat-label">avg pace</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{{ running_stats.fastest_pace }}</span>
+      <span class="stat-label">fastest pace</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{{ running_stats.longest_run_miles }}</span>
+      <span class="stat-label">longest run (mi)</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{{ running_stats.miles_this_month }}</span>
+      <span class="stat-label">miles this month</span>
+    </div>
+  </div>
+</section>
+
+<section class="workout-section">
+  <h2>recent runs</h2>
+  <table class="workout-table">
+    <thead>
+      <tr>
+        <th>date</th>
+        <th>name</th>
+        <th>miles</th>
+        <th>pace</th>
+        <th>time</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for run in recent_runs[:10] %}
+      <tr>
+        <td>{{ run.date }}</td>
+        <td>{{ run.name }}</td>
+        <td>{{ run.distance_miles }}</td>
+        <td>{{ run.pace_per_mile }}</td>
+        <td>{{ run.moving_time_minutes | round | int }}m</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="workout-section">
+  <h2>weekly mileage</h2>
+  <table class="workout-table">
+    <thead>
+      <tr>
+        <th>week</th>
+        <th>miles</th>
+        <th>runs</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for week in weekly_mileage[-16:] | reverse %}
+      <tr>
+        <td>{{ week.week }}</td>
+        <td>{{ week.miles }}</td>
+        <td>{{ week.runs }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="workout-section">
+  <h2>lifting</h2>
+  <div class="stat-grid">
+    <div class="stat">
+      <span class="stat-value">{{ workout_summary.total_workouts }}</span>
+      <span class="stat-label">total sessions</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value">{{ workout_summary.total_volume_lbs | int }}</span>
+      <span class="stat-label">total volume (lbs)</span>
+    </div>
+  </div>
+
+  <h3>prs</h3>
+  <table class="workout-table">
+    <thead>
+      <tr>
+        <th>exercise</th>
+        <th>weight</th>
+        <th>reps</th>
+        <th>date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for pr in lifting_prs %}
+      <tr>
+        <td>{{ pr.exercise }}</td>
+        <td>{{ pr.max_weight }} lbs</td>
+        <td>{{ pr.reps }}</td>
+        <td>{{ pr.date }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

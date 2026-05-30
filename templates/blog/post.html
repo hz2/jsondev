@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ page.meta.title }} &middot; jsondev{% endblock %}
+{% block description %}{{ page.meta.description }}{% endblock %}
+
+{% block main %}
+<article class="post">
+  <header class="post-header">
+    <h1>{{ page.meta.title }}</h1>
+    {% if page.meta.date %}<time>{{ page.meta.date }}</time>{% endif %}
+  </header>
+  <div class="post-content">
+    {{ page.html | safe }}
+  </div>
+</article>
+{% endblock %}
