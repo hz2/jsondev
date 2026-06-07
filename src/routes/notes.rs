@@ -16,7 +16,9 @@ pub async fn post(
     State(s): State<Arc<AppState>>,
     Path(slug): Path<String>,
 ) -> Result<Html<String>> {
-    let path = PathBuf::from(&s.content_dir).join("notes").join(format!("{slug}.md"));
+    let path = PathBuf::from(&s.content_dir)
+        .join("notes")
+        .join(format!("{slug}.md"));
     let page = content::parse_file(&path)?;
     let tmpl = s.templates.get_template("notes/post.html")?;
     Ok(Html(tmpl.render(context! { page })?))
