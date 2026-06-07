@@ -1,12 +1,8 @@
 use minijinja::Environment;
-use reqwest::Client;
 use std::env;
 
 pub struct AppState {
     pub templates: Environment<'static>,
-    pub mealie_url: String,
-    pub mealie_token: String,
-    pub http: Client,
     pub content_dir: String,
     pub data_dir: String,
     pub static_dir: String,
@@ -20,9 +16,6 @@ impl AppState {
 
         Ok(Self {
             templates: env,
-            mealie_url: env::var("MEALIE_URL").unwrap_or_else(|_| "http://mealie:9000".into()),
-            mealie_token: env::var("MEALIE_TOKEN").unwrap_or_default(),
-            http: Client::new(),
             content_dir: env::var("CONTENT_DIR").unwrap_or_else(|_| "content".into()),
             data_dir: env::var("DATA_DIR").unwrap_or_else(|_| "data".into()),
             static_dir: env::var("STATIC_DIR").unwrap_or_else(|_| "static".into()),

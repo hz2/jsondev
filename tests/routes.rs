@@ -68,6 +68,20 @@ async fn workouts_ok() {
 }
 
 #[tokio::test]
+async fn recipes_list_ok() {
+    let (status, body) = get(app(), "/recipes").await;
+    assert_eq!(status, StatusCode::OK);
+    assert!(body.contains("broccoli cheddar"));
+}
+
+#[tokio::test]
+async fn recipe_detail_ok() {
+    let (status, body) = get(app(), "/recipes/broccoli-cheddar-pasta-bake").await;
+    assert_eq!(status, StatusCode::OK);
+    assert!(body.contains("broccoli cheddar pasta bake"));
+}
+
+#[tokio::test]
 async fn unknown_route_is_404() {
     let (status, _) = get(app(), "/does-not-exist").await;
     assert_eq!(status, StatusCode::NOT_FOUND);

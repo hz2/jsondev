@@ -1,38 +1,15 @@
 {% extends "base.html" %}
-{% block title %}{{ recipe.name }} &middot; jsondev{% endblock %}
-{% block description %}{{ recipe.description }}{% endblock %}
+{% block title %}{{ page.meta.title }} &middot; jsondev{% endblock %}
+{% block description %}{{ page.meta.description }}{% endblock %}
 
 {% block main %}
-<article class="recipe">
+<article class="recipe post">
   <header class="post-header">
-    <h1>{{ recipe.name }}</h1>
-    {% if recipe.description %}<p>{{ recipe.description }}</p>{% endif %}
+    <h1>{{ page.meta.title }}</h1>
+    {% if page.meta.description %}<p>{{ page.meta.description }}</p>{% endif %}
   </header>
-
-  {% if recipe.ingredients %}
-  <section class="recipe-ingredients">
-    <h2>ingredients</h2>
-    <ul>
-      {% for item in recipe.ingredients %}
-      <li>
-        {% if item.quantity %}{{ item.quantity }} {% endif %}
-        {% if item.unit %}{{ item.unit.name }} {% endif %}
-        {% if item.food %}{{ item.food.name }}{% else %}{{ item.note }}{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
-
-  {% if recipe.instructions %}
-  <section class="recipe-instructions">
-    <h2>instructions</h2>
-    <ol>
-      {% for step in recipe.instructions %}
-      <li>{{ step.text }}</li>
-      {% endfor %}
-    </ol>
-  </section>
-  {% endif %}
+  <div class="post-content">
+    {{ page.html | safe }}
+  </div>
 </article>
 {% endblock %}

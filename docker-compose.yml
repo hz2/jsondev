@@ -5,29 +5,10 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - MEALIE_URL=http://mealie:9000
-      - MEALIE_TOKEN=${MEALIE_TOKEN}
       - RUST_LOG=jsondev=info
-      - DATA_DIR=/app/data
+    # mount for live-reload during local dev (overrides baked-in copies)
     volumes:
-      # mount content and templates live so changes don't need a rebuild
       - ./content:/app/content:ro
       - ./data:/app/data:ro
       - ./templates:/app/templates:ro
       - ./static:/app/static:ro
-    depends_on:
-      - mealie
-
-  mealie:
-    image: ghcr.io/mealie-recipes/mealie:latest
-    restart: unless-stopped
-    ports:
-      - "9000:9000"
-    volumes:
-      - mealie-data:/app/data
-    environment:
-      - ALLOW_SIGNUP=false
-      - BASE_URL=http://localhost:9000
-
-volumes:
-  mealie-data:

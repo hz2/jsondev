@@ -3,7 +3,7 @@ use std::path::Path;
 
 #[test]
 fn all_markdown_files_parse() {
-    let dirs = ["content/blog", "content/notes"];
+    let dirs = ["content/blog", "content/notes", "content/recipes"];
     let mut errors = Vec::new();
 
     for dir in &dirs {

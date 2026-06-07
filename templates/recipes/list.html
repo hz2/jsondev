@@ -4,13 +4,13 @@
 {% block main %}
 <h1>recipes</h1>
 <ul class="post-list recipe-list">
-  {% for r in recipes %}
+  {% for page in pages %}
   <li class="recipe-item">
-    <a href="/recipes/{{ r.slug }}">{{ r.name }}</a>
-    {% if r.description %}<p>{{ r.description }}</p>{% endif %}
+    <a href="/recipes/{{ page.slug }}">{{ page.meta.title }}</a>
+    {% if page.meta.description %}<p>{{ page.meta.description }}</p>{% endif %}
   </li>
   {% else %}
-  <li>no recipes yet &mdash; add some in mealie.</li>
+  <li>no recipes yet.</li>
   {% endfor %}
 </ul>
 {% endblock %}
