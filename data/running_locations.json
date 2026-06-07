@@ -1,18 +1,23 @@
 [
   {
+    "name": "treadmill",
+    "count": 48,
+    "miles": 127.6
+  },
+  {
     "name": "slu",
     "count": 40,
     "miles": 124.1
   },
   {
-    "name": "treadmill",
-    "count": 38,
-    "miles": 96.6
-  },
-  {
     "name": "morning run",
     "count": 27,
     "miles": 75.0
+  },
+  {
+    "name": "cdm",
+    "count": 4,
+    "miles": 13.9
   },
   {
     "name": "bethesda",
@@ -30,23 +35,18 @@
     "miles": 5.0
   },
   {
-    "name": "fredneck",
+    "name": "murph finish mike",
     "count": 1,
-    "miles": 3.2
+    "miles": 1.0
   },
   {
-    "name": "oceanside",
+    "name": "running to find pull up bar",
     "count": 1,
-    "miles": 2.6
+    "miles": 0.7
   },
   {
-    "name": "warm up",
+    "name": "murph mile 1",
     "count": 1,
-    "miles": 0.4
-  },
-  {
-    "name": "light run",
-    "count": 1,
-    "miles": 3.0
+    "miles": 1.0
   }
 ]
